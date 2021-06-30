@@ -7,7 +7,8 @@ ENV TELEGRAM_SH_SRC_URL=https://raw.githubusercontent.com/up9cloud/telegram-bot-
 RUN apk add --no-cache \
 	bash \
 	curl \
-	jq
+	jq \
+	gettext
 
 RUN set -e; \
 	wget ${TELEGRAM_SH_SRC_URL} -O /usr/local/bin/tg.ash; \
