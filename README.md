@@ -1,4 +1,7 @@
-# docker-notify [![Docker Automated build](https://img.shields.io/docker/automated/sstc/notify)](https://hub.docker.com/repository/docker/sstc/notify)
+# docker-notify
+
+[![Build workflow](https://github.com/docker-sstc/docker-notify/actions/workflows/main.yml/badge.svg)](https://github.com/docker-sstc/docker-notify/actions)
+[![Docker pulls](https://img.shields.io/docker/pulls/sstc/notify.svg)](https://hub.docker.com/r/sstc/notify)
 
 Command line notifications, all in one:
 
